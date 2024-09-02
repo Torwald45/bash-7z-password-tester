@@ -28,4 +28,4 @@ The script's key feature is automated password testing to decrypt and verify a p
 * These components must be in the same directory where you run the script, and the script must have execute permissions. E.g., use: 
 ```chmod +x 7z_password_tester.sh```
 
-To run script use ```./7z_password_tester.sh``` command.
+**To run script use ```./7z_password_tester.sh``` command.**
