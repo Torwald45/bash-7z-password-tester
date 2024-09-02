@@ -17,7 +17,7 @@ The script's key feature is automated password testing to decrypt and verify a p
 - The script is written in Bash, so it requires a Unix-like operating system with Bash available (most Linux distributions and macOS have Bash pre-installed).
 
 - 7-Zip tool installed. On Debian-based systems (e.g., Ubuntu, Linux Mint), you can install it with: 
-'''sudo apt-get install p7zip-full'''
+```sudo apt-get install p7zip-full```
 
 # Usage
 
@@ -26,6 +26,6 @@ The script's key feature is automated password testing to decrypt and verify a p
 * ZIP File: A ZIP file named zipped_file.zip that you want to decrypt and extract.
 
 * These components must be in the same directory where you run the script, and the script must have execute permissions. E.g., use: 
-'''chmod +x 7z_password_tester.sh'''
+```chmod +x 7z_password_tester.sh```
 
-To run script use '''./7z_password_tester.sh''' command.
+To run script use ```./7z_password_tester.sh``` command.
