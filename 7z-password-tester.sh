@@ -8,7 +8,7 @@
 # @author      Torwald45
 # @link        https://github.com/Torwald45/bash-7z-password-tester
 # @license     GPL-2.0-or-later
-# @version     2.0.0
+# @version     2.0.1
 ###############################################################################
 
 found=false

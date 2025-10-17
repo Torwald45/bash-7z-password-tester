@@ -122,9 +122,27 @@ Replace `unzipped` with your preferred directory name throughout the script.
 ## Security Notes
 
 - **Do not commit real passwords to version control**
-- The included `passwordlist` contains only example passwords
-- The included `zipped_file.zip` is a test file (password: avatar)
-- For real use, create your own password list
+- The included `passwordlist` contains:
+  - 999 most common passwords from darkweb2017 dataset
+  - 16 example passwords at the end (examplepassword1-15 + **avatar**)
+  - **Correct password for test file:** `avatar` (last password in list)
+- The included `zipped_file.zip` is a test file (password: **avatar**)
+- For real use, you can use included list or create your own
+
+## Popular Password Lists
+
+For extended password testing, use these wordlists:
+
+- **[SecLists](https://github.com/danielmiessler/SecLists)** - Comprehensive password lists
+  - `10k-most-common.txt` - Top 10,000 passwords
+  - `darkweb2017_top-10000.txt` - Top 10,000 from darkweb leaks
+  - `Passwords/Common-Credentials/` - Multiple wordlists
+
+- **[RockYou](https://github.com/brannondorsey/naive-hashcat/releases)** - 14 million real passwords from data breach
+
+- **[CrackStation](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm)** - 1.5 billion unique passwords
+
+Download and replace `passwordlist` file with your chosen wordlist.
 
 ## Testing
 

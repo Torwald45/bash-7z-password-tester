@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2.0.1] - 2025-10-17
+
+### Changed
+- Extended passwordlist from 16 to 1015 passwords
+- Passwordlist now includes 999 most common passwords from darkweb2017 dataset
+- Original example passwords (examplepassword1-15 + avatar) moved to end of list
+- Updated README with links to popular wordlists (SecLists, RockYou, CrackStation)
+
+### Added
+- Security notes about included passwords
+- Popular Password Lists section in README
+
 ## [2.0.0] - 2025-10-17
 
 ### Changed
