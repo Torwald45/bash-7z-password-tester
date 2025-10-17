@@ -1,0 +1,11 @@
+# Extracted files
+unzipped/
+
+# Backup files
+*.bak
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
