@@ -138,8 +138,6 @@ For extended password testing, use these wordlists:
   - `darkweb2017_top-10000.txt` - Top 10,000 from darkweb leaks
   - `Passwords/Common-Credentials/` - Multiple wordlists
 
-- **[RockYou](https://github.com/brannondorsey/naive-hashcat/releases)** - 14 million real passwords from data breach
-
 - **[CrackStation](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm)** - 1.5 billion unique passwords
 
 Download and replace `passwordlist` file with your chosen wordlist.
